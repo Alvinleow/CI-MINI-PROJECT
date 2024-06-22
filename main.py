@@ -53,7 +53,7 @@ def main():
     model_evaluation.evaluate_model(best_model, X_test, y_test)
 
     # Perform cross-validation
-    mean_cv_score, std_cv_score = model_validation.cross_validate_model(X_train_smote, y_train_smote, random_seed)
+    mean_cv_score, std_cv_score = model_validation.cross_validate_model(X, y, random_seed)
     print(f'\nMean cross-validation accuracy: {mean_cv_score:.4f} ± {std_cv_score:.4f}')
 
      # Plot learning curve
