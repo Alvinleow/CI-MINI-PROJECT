@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 def preprocess_data(df):
 
     """
-    Preprocess the dataset by standardizing the features and applying SMOTE for class balancing.
+    Preprocess the dataset by standardizing the features.
 
     Parameters:
     df (DataFrame): The raw dataset.
