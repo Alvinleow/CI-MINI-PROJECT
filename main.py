@@ -1,7 +1,6 @@
 from sklearn.model_selection import train_test_split, StratifiedKFold
 import data_loading
 import data_preprocessing
-import model_training
 import model_evaluation
 import model_validation
 import model_tuning
